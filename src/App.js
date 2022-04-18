@@ -1,10 +1,16 @@
 import React, { Component } from 'react'
 import Navbar from './Navbar'
-export class App extends Component {
+import Exmaple from './State Example/Exmaple'
+import Counter from './State Example/Counter'
+
+
+class App extends Component {
   render() {
     return (
       <div>
         <Navbar/>
+        <Exmaple/>
+        <Counter/>
       </div>
     )
   }
