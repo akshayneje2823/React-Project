@@ -1,19 +1,15 @@
-import React, { Component } from 'react'
+import React from 'react'
+import Example2 from './Event Handling/Example2'
 import Navbar from './Navbar'
-import Exmaple from './State Example/Exmaple'
-import Counter from './State Example/Counter'
+// import Message from './Event Handling/Message'
 
-
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Navbar/>
-        <Exmaple/>
-        <Counter/>
-      </div>
-    )
-  }
+function App() {
+  return (
+    <div>
+      <Navbar/>
+      <Example2/>
+    </div>
+  )
 }
 
 export default App

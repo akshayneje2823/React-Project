@@ -8,6 +8,7 @@ export default function Navbar() {
            <div className="ml-auto">
               <ul className="navbar-nav">
                 <li className="nav-item "><a className="nav-link" to="#">State Example</a></li>
+                <li className="nav-item "><a className="nav-link" to="#">Eveny Binding</a></li>
               </ul>
            </div>
  

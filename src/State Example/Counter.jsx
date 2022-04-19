@@ -5,7 +5,7 @@ function Counter() {
       product_name:"Iphone 12",
       product_img:"https://rukminim2.flixcart.com/image/416/416/l0igvww0/mobile/y/j/1/-original-imagca5ge9yrbrzq.jpeg?q=70",
       product_price:50000,
-      product_qty:1
+      product_qty:1>0
     })
     const decrHandler = () => {
       setItem({...Item,product_qty:Item.product_qty - 1})
@@ -21,15 +21,15 @@ function Counter() {
             <table className='table table-hover'>
               <thead className='bg-dark text-white'>
                 <tr>
-                  <th>Product Name</th>
-                  <th>Product Img</th>
-                  <th>Product Price</th>
+                  <th>Name</th>
+                  <th>Img</th>
+                  <th>Price</th>
                   <th>Qty</th>
-                  <th>Total</th>
+                  <th>Total Price</th>
                 </tr>
               </thead>
-              <tbody className='bg-dark text-white'>
-              <tr>
+              <tbody className=''>
+                <tr>
                 <td>{Item.product_name}</td>
                 <td><img src={Item.product_img} height="60px" alt="" /></td>
                 <td>{Item.product_price}</td>
