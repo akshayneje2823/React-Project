@@ -22,7 +22,7 @@ function Sms() {
                     <div className="card-body">
                         <form>
                             <div className="form-group">
-                            <textarea name="" onChange={updateCount} maxLength={variable.maxLimit} rows="5" className='form-control' placeholder='Type here'></textarea>
+                            <textarea className='form-control' onChange={updateCount} maxLength={variable.maxLimit} rows="5"  placeholder='Type here'></textarea>
                             </div>
                         </form>
                     </div>
