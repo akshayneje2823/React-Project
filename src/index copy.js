@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import'./fromValidation.css'
 import App from './Form Validation/App';
 
 
