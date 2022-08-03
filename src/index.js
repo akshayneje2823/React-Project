@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import App from './Expense Tracker/App';
+import App from './Ref/App';
 
 
 ReactDOM.render(
