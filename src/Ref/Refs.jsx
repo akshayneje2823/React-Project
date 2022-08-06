@@ -17,6 +17,7 @@ function Refs() {
   return (
     <div>
         <input type="text" ref={Ref}/>
+        {/* <input type="text" ref={Ref}/> */}
         <input type="text" ref={setCalBaref}/>
         <button onClick={()=>{
             alert(Ref.current.value)
