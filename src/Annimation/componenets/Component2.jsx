@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
-import { Spring  } from 'react-spring';
+import { Spring } from 'react-spring';
 
 class Component2 extends Component {
   render() {
     return (
       <Spring
-      from={{opacity:0}}
-      to={{opacity:1}}
-      config={{decay:100,duration:100}}>
+        from={{ opacity: 0 }}
+        to={{ opacity: 1 }}
+        config={{ decay: 100, duration: 100 }}>
         {
-          props =>(
+          props => (
             <div style={props}>
               <div style={c2Style}>
                 <h1>Componenet2</h1>
