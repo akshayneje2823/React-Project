@@ -5,7 +5,7 @@ import './App.css'
 import Income from './Income';
 import TransactionList from './TransactionList';
 import AddTransction from './AddTransction';
-import { GlobalProvider } from './Context/GlobalState';
+import { GlobalProvider } from './context/GlobalState';
 
 
 function App() {

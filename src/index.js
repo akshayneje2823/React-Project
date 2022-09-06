@@ -1,13 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import'./fromValidation.css'
-import App from './Form Validation/App';
+import ReactDOM  from 'react-dom';
+// import'./fromValidation.css'
+import App from './Expense Tracker/App';
 
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App/>
-  </React.StrictMode>,
+    <React.Fragment>
+        <App/>
+    </React.Fragment>,
   document.getElementById("root")
-)
-
+  )
