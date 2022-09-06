@@ -8,7 +8,7 @@ export default function AppReducer(state, action) {
         case 'ADD_TRAN':
             return {
                 ...state,
-                transactions: [action.payload, ...state.transaction]
+                transactions: [...state.transactions,action.payload]
             }
         default:
             return state

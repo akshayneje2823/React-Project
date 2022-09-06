@@ -5,7 +5,7 @@ export default function AddTransction() {
     const [text,setText] = useState('')
     const [amount,setAmount] = useState(0);
 
-    const {addTransction} = useContext(GlobalContext);
+    const {addTransaction} = useContext(GlobalContext);
 
     const onSubmitHandler = (e)=>{
         e.preventDefault();
@@ -13,9 +13,9 @@ export default function AddTransction() {
        const newTransaction = {
             id : Math.floor(Math.random() * 100000000),
             text,
-            amount
+            amount: +amount
         };
-        addTransction(newTransaction)
+        addTransaction(newTransaction)
     }
     return (
         <div>
