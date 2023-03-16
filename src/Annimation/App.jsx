@@ -9,6 +9,7 @@ export default class App extends Component {
       <div className='App'>
         <Comp1/>
         <Component2/>
+        
       </div>
     )
   }
